@@ -37,8 +37,9 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 TARGET_OTA_ASSERT_DEVICE := SGH-T769,T769,sgh-t769,t769,Blaze4G,Blaze4g,blaze4G,blaze4g
 
 # Kernel
-TARGET_KERNEL_CONFIG        := cyanogenmod_t769_defconfig
-TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
+TARGET_PREBUILT_KERNEL       := device/samsung/t769/kernel
+#TARGET_KERNEL_CONFIG        := cyanogenmod_t769_defconfig
+#TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 
 # cat /proc/emmc
 #dev:        size     erasesize name
