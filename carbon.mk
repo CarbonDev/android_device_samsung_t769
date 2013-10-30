@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/t769/full_t769.mk)
 
-# Inherit GSM
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
-
 # Enhanced NFC
 #$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
 
